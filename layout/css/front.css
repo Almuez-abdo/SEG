@@ -1,0 +1,565 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing : border-box;
+}
+
+
+a{
+    text-decoration: none;
+    color: #eee;
+}
+
+ul{
+    direction: rtl;
+    list-style-type: none;
+}
+
+body{
+    direction: rtl;
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+    background: #eef2f6;
+    color: #222;
+    line-height: 1.8;
+}
+
+table tr td a{
+    color: rgba(var(--bs-success-rgb));
+}
+
+table tr td form input{
+    margin-bottom: 5px;
+}
+
+/* Start Header */
+
+.header_title{
+    background-color: #157347;
+    box-shadow: 0 2px 8px rgba(0,0,0,.18);
+}
+
+.navbar>.container{
+    flex-wrap: initial;
+}
+
+.navbar-brand img{
+    width: 70px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 3px;
+}
+
+.navLink {
+    font-weight: 700;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: background .2s;
+}
+
+.navLink:hover,
+.navLink.active {
+    background: rgba(255,255,255,.18);
+    color: #fff;
+}
+
+/* End Header */
+
+/* Start Form */
+section form{
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 14px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.08);
+}
+
+section form input{
+    margin-bottom: 10px;
+    max-width: 400px;
+}
+
+section h3 {
+    color: #eee;
+    font-weight: bold;
+}
+
+
+form .input_cont{
+    position: relative;
+    width: 350px;
+    max-width: 100%;
+}
+
+
+form .input_cont .asterisk{
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    font-size: 20px;
+    color: #e01616;
+}
+
+/* End Form */
+/*Start Login Page*/
+
+section .info{
+    background-color: #ffffff;
+    padding: 14px;
+    border-radius: 14px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.08);
+}
+
+section h3{
+    background-color: rgba(var(--bs-success-rgb));
+    padding: 8px 12px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+section ul li {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+section form .rePass{
+    display: block;
+    color: red;
+}
+
+.rePassForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #eee;
+}
+
+.rePassForm input,h3{
+    margin: 5px 0px;
+}
+
+/*End Login Page*/
+/*Start Navbar*/
+
+.header_title ul li a{
+    color: #eee;
+    font-size: 18px;
+}
+
+.header_title ul li a:active{
+    color: #fff;
+}
+
+/*End Navbar*/
+
+/*Start Dashboard (main.php) */
+
+.pro{
+    background-color: #eef2f6;
+    padding: 20px 0px;
+}
+
+.dash-side{
+    background: #212529;
+    color: #f8f9fa;
+    border-radius: 16px;
+}
+
+.dash-side .panel {
+    background: rgba(255,255,255,.06);
+    border-radius: 14px;
+    padding: 14px 10px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.pro .panel-heading img{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border: 3px solid #198754;
+    padding: 2px;
+    background: #fff;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.pro .panel-body h5 {
+    font-size: .92rem;
+    margin-bottom: 6px;
+}
+
+.panel-name {
+    font-weight: 800;
+    font-size: 1.05rem;
+    color: #fff;
+}
+
+.req-card {
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+}
+
+.req-card h4 {
+    background: #198754;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 8px;
+    margin: 0;
+}
+
+.req-card .btn {
+    border-radius: 0;
+    width: 100%;
+}
+
+.req-card .btn a {
+    color: #fff;
+    display: block;
+    font-weight: 700;
+}
+
+.dash-main {
+    background: transparent;
+}
+
+.dash-section {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,.08);
+    padding: 18px;
+    margin-bottom: 18px;
+}
+
+.dash-section > h2 {
+    color: #146c43;
+    font-weight: 800;
+    font-size: 1.3rem;
+    border-right: 5px solid #198754;
+    padding-right: 12px;
+    margin-bottom: 14px;
+}
+
+.dash-section h4 {
+    color: #146c43;
+    font-weight: 700;
+    margin: 14px 0 8px;
+}
+
+.dash-section h5 {
+    color: #333;
+    font-weight: 700;
+    margin: 12px 0 8px;
+}
+
+.dash-section .table-responsive {
+    border: 1px solid #e5e9ef;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.dash-section table {
+    margin-bottom: 0;
+}
+
+.dash-section tr.bg-dark td,
+.dash-section thead td {
+    background: #146c43;
+    color: #fff;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.dash-section td {
+    vertical-align: middle;
+    font-size: .88rem;
+}
+
+/*End Dashboard*/
+
+/*Start Profile (legacy placeholder — dashboard avatar styles above apply)*/
+
+
+/*End Profile*/
+
+/*Start Edit Profile*/
+
+.edit_pro{
+    background-color: #eee;
+}
+
+.edit_pro .load_image{
+    width: auto;
+}
+
+.edit_pro h1{
+    color: #212020;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.edit_pro form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.edit_pro form input{
+    max-width: 350px;
+    margin-bottom: 10px;
+}
+
+
+.edit_pro form .input_cont .fa{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+
+.edit_pro form .work_plase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.edit_pro form .work_plase .form-control{
+    display: inline-block;
+}
+
+.avatar form{
+    text-align: center;
+}
+
+.avatar form img{
+   border-radius: 50px;
+   margin-bottom: 10px;
+}
+
+.avatar form input{
+    margin-bottom: 10px;
+}
+
+/*End Edit Profile*/
+
+/*Start Rebort page*/
+
+.rebo h3{
+    background-color: rgba(var(--bs-success-rgb));
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.rebo ol li{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.rebo form{
+    margin: 10px 5px;
+    font-size: 18px;
+    font-weight: bold;
+} 
+
+.rebo form input{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+.rebo form .form-group textarea{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+
+.rebo .form_rebo a{
+    cursor: default;
+    display: none;
+}
+
+.rebo form .year_grad{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rebo form .form-group textarea{
+    width: 100%;
+    text-align: center;
+    height: 300px;
+}
+
+.rebo form input.btn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+/*End Rebort page*/
+
+
+/*Start Adver Page*/
+.adver{
+    background-color: #212020;
+    color: #eee;
+    padding: 14px 18px;
+    margin-top: 20px;
+    border-top: 4px solid #198754;
+}
+
+.adver h2{
+    background-color: rgba(var(--bs-success-rgb));
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 6px;
+}
+
+.adver div ul li {
+    border-bottom: 1px dashed #444;
+    padding: 8px 2px;
+}
+
+.adver div ul li:last-child {
+    border-bottom: none;
+}
+
+.adver div ul li h6{
+    display: flex;
+    justify-content: space-between;
+    color: #ddd;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.adver div ul li h6 span{
+    color: #e0a458;
+}
+
+.adver div ul li p {
+    margin-bottom: 0;
+    color: #bbb;
+}
+
+.add_adver{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add_adver form{
+    text-align: -webkit-center;
+}
+
+.add_adver form h5{
+    background-color: #0d6efd;
+    padding: 5px 0px;
+}
+
+.add_adver form .form-control input{
+    width: 50%;
+    text-align: center;
+}
+
+.add_adver form .form-control textarea{
+    width: 100%;
+    text-align: center;
+    height: 300px;
+}
+
+.add_adver form input.btn{
+    width: 100%;
+}
+
+/*End Adver Page*/
+
+/*Start Quez Page*/
+
+.f_Quez {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.f_Quez h1{
+    text-align: center;
+    background-color: #0d6efd;
+    color: #aaa;
+}
+
+.f_Quez .form-control{
+    background-color: #eee;
+}
+
+.f_Quez .form-control span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.f_Quez form textarea{
+    width: 50%;
+    height: 150px;
+}
+
+.f_Quez input.btn{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+/*End Quez Page*/
+/*Start Singup Page*/
+.singUp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #aaa;
+    padding: 10px 0px;
+}
+
+.singUp form .input_cont{
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.singUp form textarea{
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.singUp form input.btn{
+    width: 100%;
+}
+
+/*End Singup Page*/
+
+/*Start Boss Page*/
+
+.taien form input{
+    border: none;
+}
+
+/*End Boss Page*/
+
+/* Responsive */
+@media (max-width: 767px) {
+    .dash-side {
+        margin-bottom: 14px;
+    }
+    form .input_cont {
+        width: 100%;
+    }
+    .navbar>.container {
+        flex-wrap: wrap;
+    }
+}

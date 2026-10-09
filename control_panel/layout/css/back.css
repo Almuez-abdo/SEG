@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing : border-box;
+}
+
+
+a{
+    text-decoration: none;
+    color: #eee;
+}
+
+ul{
+    direction: rtl;
+    list-style-type: none;
+}
+
+body{
+    direction: rtl;
+}
+
+table tr td a{
+    padding: 3px;
+    font-size: 13px;
+}
+
+/* Start Header */
+
+.header_title{
+    background-color: rgba(var(--bs-success-rgb));
+}
+
+.navbar>.container{
+    flex-wrap: initial;
+}
+
+.navbar-brand img{
+    width: 70px;
+}
+
+/* End Header */
+/* Start Login Page */
+.admin_log form{
+    background-color: #ddd;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin_log form input{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+form .input_cont{
+    position: relative;
+    width: 50%;
+}
+
+.admin_log form input.btn{
+    width: 50%;
+}
+
+
+form .input_cont .asterisk{
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    font-size: 20px;
+    color: #e01616;
+}
+
+/* End Login Page */
+/* Start Dashbord Page*/
+.home-part .part-manger{
+    background-color: #008060;
+    color: #ddd;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.home-part .part-pending{
+    background-color: #008;
+    color: #ddd;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.home-part span{
+    font-size: 30px;
+}
+
+/* End Dashbord Page*/
+/*Start Add Members*/
+.add_members{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #aaa;
+    padding: 10px 0px;
+}
+
+.add_members form .input_cont{
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.add_members form textarea{
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.add_members form input.btn{
+    width: 100%;
+}
+
+/*End Add Members*/
